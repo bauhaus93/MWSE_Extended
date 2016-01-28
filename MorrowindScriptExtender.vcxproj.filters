@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Dungeon">
+      <UniqueIdentifier>{7d034db1-db1b-4208-9c79-eee93bcd81a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dungeon\Header">
+      <UniqueIdentifier>{0af6d85f-5367-4499-9989-fdc80b162188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dungeon\Source">
+      <UniqueIdentifier>{a7834aba-b8b3-4434-ba66-81e12c313afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MWSE">
+      <UniqueIdentifier>{63b75953-ee33-4edc-8c3d-5c30c44f8ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MWSE\Header">
+      <UniqueIdentifier>{663494d9-d553-4ce9-b405-ca5ffd31c27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MWSE\Source">
+      <UniqueIdentifier>{f69a748d-e159-4c69-b008-1865a65b4f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dungeon\Relevant">
+      <UniqueIdentifier>{41d1118c-5b68-49fc-abb0-b31f8ad48781}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ADDRESSSPACE.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Breakpoint.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BUFSPACE.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cInstCall.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cInstCallShort.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cInstCopyFromStack.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cInstCopyReg.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cInstCopyToStack.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cInstReturn.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cInstReturnP.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cInstReturnVP.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cLog.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cMailClient.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cMWSEMain.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DEBUGGING.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FILECACHE.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCAI.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCARRAY.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCEXTENDER.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCFILE.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCGMST.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCINVENTORY.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCLOG.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCPOSITION.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCPROPERTIES.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCREFERENCE.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCTEXT.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCTION.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCVARIABLES.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GetAttributeFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GetBaseAttributeFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GetGsStringFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GetMaxHealthFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GetSkillFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GetSkillInfoFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="INSTFLOAT.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="INSTINT.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="INSTJUMP.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="INSTNOP.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="INSTPOP.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="INSTPUSH.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="INSTRUCTION.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MEMACCESSOR.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MEMACCESSORS.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ModAttributeFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMem.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFloatFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomLongFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="REFERENCE.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SetGsStringFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SetLevelFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SetSkillInfoFunction.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="STRINGS.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TES3MACHINE.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TES3MemMap.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TES3OFFSETS.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TES3TYPES.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VIRTUALMACHINE.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTYPES.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="warnings.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="WinHeader.h">
+      <Filter>MWSE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateDungeonFunction.h">
+      <Filter>Dungeon\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TES3OPCODES.h">
+      <Filter>Dungeon\Relevant</Filter>
+    </ClInclude>
+    <ClInclude Include="GetDungeonFunction.h">
+      <Filter>Dungeon\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Breakpoint.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BUFSPACE.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cInstCall.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cInstCallShort.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cInstCopyFromStack.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cInstCopyReg.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cInstCopyToStack.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cInstReturn.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cInstReturnP.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cInstReturnVP.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cLog.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cMailClient.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cMWSEMain.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FILECACHE.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAI.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCARRAY.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCEXTENDER.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCFILE.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCGMST.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCINVENTORY.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCLOG.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCPOSITION.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCPROPERTIES.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCREFERENCE.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCTEXT.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCVARIABLES.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GetAttributeFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GetBaseAttributeFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GetGsStringFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GetMaxHealthFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GetSkillFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GetSkillInfoFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="INSTFLOAT.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="INSTINT.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="INSTJUMP.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="INSTPOP.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="INSTPUSH.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ModAttributeFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMem.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomFloatFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomLongFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="REFERENCE.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SetGsStringFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SetLevelFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SetSkillInfoFunction.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="STRING.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TES3OFFSETS.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VIRTUALMACHINE.cpp">
+      <Filter>MWSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateDungeonFunction.cpp">
+      <Filter>Dungeon\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TES3MACHINE.cpp">
+      <Filter>Dungeon\Relevant</Filter>
+    </ClCompile>
+    <ClCompile Include="GetDungeonFunction.cpp">
+      <Filter>Dungeon\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
