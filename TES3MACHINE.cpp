@@ -59,6 +59,9 @@ using namespace std;
 
 #include "GenerateDungeonFunction.h"
 #include "GetDungeonFunction.h"
+#include "AddTileFactoryFunction.h"
+#include "AddExpansionFunction.h"
+#include "GetTilesFunction.h"
 
 #ifdef DEBUG
 #include <stdio.h>
@@ -360,6 +363,9 @@ TES3MACHINE::TES3MACHINE()
 
 	AddInstruction(GETDUNGEON, new GetDungeonFunction(*this));
 	AddInstruction(GENERATEDUNGEON, new GenerateDungeonFunction(*this));
+	AddInstruction(ADDTILEFACTORY, new AddTileFactoryFunction(*this));
+	AddInstruction(ADDEXPANSION, new AddExpansionFunction(*this));
+	AddInstruction(GETTILES, new GetTilesFunction(*this));
 
 	// Grant McDorman 16 Jan 2007
 #define ADDINSTRUCTION(name) AddInstruction(name, new FUNC##name(*this))

@@ -110,7 +110,9 @@
     <None Include="exports.def" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddExpansionFunction.h" />
     <ClInclude Include="ADDRESSSPACE.h" />
+    <ClInclude Include="AddTileFactoryFunction.h" />
     <ClInclude Include="Breakpoint.h" />
     <ClInclude Include="BUFSPACE.h" />
     <ClInclude Include="cInstCall.h" />
@@ -146,6 +148,7 @@
     <ClInclude Include="GetMaxHealthFunction.h" />
     <ClInclude Include="GetSkillFunction.h" />
     <ClInclude Include="GetSkillInfoFunction.h" />
+    <ClInclude Include="GetTilesFunction.h" />
     <ClInclude Include="INSTFLOAT.h" />
     <ClInclude Include="INSTINT.h" />
     <ClInclude Include="INSTJUMP.h" />
@@ -180,6 +183,8 @@
     <ResourceCompile Include="Resource.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AddExpansionFunction.cpp" />
+    <ClCompile Include="AddTileFactoryFunction.cpp" />
     <ClCompile Include="Breakpoint.cpp" />
     <ClCompile Include="BUFSPACE.cpp" />
     <ClCompile Include="cInstCall.cpp" />
@@ -213,6 +218,7 @@
     <ClCompile Include="GetMaxHealthFunction.cpp" />
     <ClCompile Include="GetSkillFunction.cpp" />
     <ClCompile Include="GetSkillInfoFunction.cpp" />
+    <ClCompile Include="GetTilesFunction.cpp" />
     <ClCompile Include="INSTFLOAT.cpp" />
     <ClCompile Include="INSTINT.cpp" />
     <ClCompile Include="INSTJUMP.cpp" />

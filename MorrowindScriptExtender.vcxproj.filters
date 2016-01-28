@@ -228,6 +228,15 @@
     <ClInclude Include="GetDungeonFunction.h">
       <Filter>Dungeon\Header</Filter>
     </ClInclude>
+    <ClInclude Include="AddTileFactoryFunction.h">
+      <Filter>Dungeon\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GetTilesFunction.h">
+      <Filter>Dungeon\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AddExpansionFunction.h">
+      <Filter>Dungeon\Header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource.rc">
@@ -389,6 +398,15 @@
       <Filter>Dungeon\Relevant</Filter>
     </ClCompile>
     <ClCompile Include="GetDungeonFunction.cpp">
+      <Filter>Dungeon\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTileFactoryFunction.cpp">
+      <Filter>Dungeon\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GetTilesFunction.cpp">
+      <Filter>Dungeon\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AddExpansionFunction.cpp">
       <Filter>Dungeon\Source</Filter>
     </ClCompile>
   </ItemGroup>
